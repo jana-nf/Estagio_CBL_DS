@@ -4,20 +4,23 @@ Protótipo de pipeline de dados (ETL/ELT) desenvolvido com Python, Pandas, SQL e
 # 🚀 Fase 1: Engajamento (Big Idea & Essential Question)
 Definir o escopo do desafio de aprendizado, alinhando-o com os objetivos da vaga.
 
-Ideia Central (Big Idea)
-"O Valor dos Dados: Como os Dados Brutos são Transformados em Insights Acionáveis e Conhecimento Estratégico para a Empresa."
+## Ideia Central (Big Idea):
 
-Pergunta Essencial (Essential Question)
-"Como posso desenvolver um fluxo de trabalho de ponta a ponta em Python, utilizando práticas de engenharia de software (Git), para transformar dados heterogêneos em um dataset limpo e pronto para análise, gerando um insight estratégico que promova uma melhoria processual na área de atuação?"
+O Valor dos Dados: Como os Dados Brutos são Transformados em Insights Acionáveis e Conhecimento Estratégico para a Empresa.
 
-O Desafio (Challenge)
-"Construir um mini-pipeline de ETL (Extração, Transformação e Carga) para processar dados de vendas (simulados: CSV, JSON, consulta SQL) e gerar um painel de indicadores (dashboard) simples em Python, que revele a principal 'dor' ou oportunidade de otimização de processo na operação de uma empresa hipotética (ex: logística, marketing)."
+## Pergunta Essencial (Essential Question):
+
+Como posso desenvolver um fluxo de trabalho de ponta a ponta em Python, utilizando práticas de engenharia de software (Git), para transformar dados heterogêneos em um dataset limpo e pronto para análise, gerando um insight estratégico que promova uma melhoria processual na área de atuação?
+
+## O Desafio (Challenge):
+
+Construir um mini-pipeline de ETL (Extração, Transformação e Carga) para processar dados de vendas (simulados: CSV, JSON, consulta SQL) e gerar um painel de indicadores (dashboard) simples em Python, que revele a principal 'dor' ou oportunidade de otimização de processo na operação de uma empresa hipotética (ex: logística, marketing).
 
 
 # 🔬 Fase 2: Investigação (Learning Resources & Activities) 
 Esta é a fase de aquisição de conhecimento e desenvolvimento das habilidades necessárias para superar o Desafio.
 
-Tópico (Habilidade):
+## Tópico (Habilidade):
 - Python Intermediário (Scripts e Automação) 
 
 - Processamento de Múltiplas Fontes (ETL)
@@ -29,7 +32,7 @@ Tópico (Habilidade):
 - Extração de Insights e Relatórios
 
 
-Atividades de Estudo Recomendadas:
+## Atividades de Estudo Recomendadas:
 - Estruturas de Dados Avançadas: Foco em Dicionários, List Comprehensions, e itertools.
 
 - Pandas: Dominar read_csv, read_json, merge, groupby, apply, e tratamento de valores ausentes (NaN).
@@ -55,7 +58,7 @@ Atividades de Estudo Recomendadas:
 - Estatística Descritiva: Calcular médias, medianas, desvios e identificar outliers.
 
 
-Recursos de Aprendizagem Sugeridos:
+## Recursos de Aprendizagem Sugeridos:
 - Cursos online (DataCamp, Coursera) com foco em Pandas.
 
 - Prática no Kaggle (limpeza de dados).
@@ -86,43 +89,52 @@ Aplicação prática do conhecimento adquirido, culminando na solução do Desaf
 
 ## Etapa 1: Desenvolver a Solução do Desafio
 
-Ação: Construção do Mini-Pipeline de ETL
+### Ação: 
+
+Construção do Mini-Pipeline de ETL
 
 
-Extração (E):
+### Extração (E):
 
 Criar três fontes de dados simuladas: um CSV de pedidos, um JSON de informações do cliente (extraído via simulação de API), e um pequeno banco de dados SQLite com dados de estoque (consulta SQL básica).
 
 
-Transformação (T):
+### Transformação (T):
 
 Escrever um script Python (usando Pandas) que leia, integre (merge), limpe (trate NaNs e formate tipos) e transforme os dados das três fontes em um dataset único e coerente.
 
-Automação: Garantir que este processo seja executado por um único script modular.
+
+### Automação: 
+
+Garantir que este processo seja executado por um único script modular.
 
 
-Carga e Análise (L & Insights):
+### Carga e Análise (L & Insights):
 
 Carregar o dataset limpo em um arquivo final (ex: clean_data.csv).
 
 Desenvolver o segundo script de análise para extrair um insight claro (ex: "Qual a categoria de produto com maior margem, mas com o maior tempo médio de entrega?") e gerar um gráfico de visualização (relatório simples).
 
 
-Controle de Versão:
+### Controle de Versão:
 
 Usar o Git desde o início, para criar branches para a extração, transformação e análise, e fazer commits regulares e detalhados.
 
 
 ## Etapa 2: Compartilhamento e Documentação
 
-Documentação: Escrever um README.md claro no repositório Git, explicando o propósito do projeto, como executar o script (instruções), e o insight final encontrado.
+### Documentação: 
 
-Organização: Organizar o repositório seguindo a Estrutura de Projeto (ex: /src para scripts, /data para dados brutos e limpos).
+Escrever um README.md claro no repositório Git, explicando o propósito do projeto, como executar o script (instruções), e o insight final encontrado.
+
+### Organização: 
+
+Organizar o repositório seguindo a Estrutura de Projeto (ex: /src para scripts, /data para dados brutos e limpos).
 
 
 ## Etapa 3: Reflexão (Otimização e Melhoria)
 
-Responder às seguintes perguntas para consolidar o aprendizado:
+### Responder às seguintes perguntas para consolidar o aprendizado:
 
 O que aprendi sobre lidar com tipos de dados conflitantes de múltiplas fontes? (Relacionado ao Processamento de Dados)
 
